@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+html,body,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: 8px;
+}
+.title{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+}
+.place{
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.place span{
+    padding: 0 50px;
+}
+hr{
+    width: 75%;
+    border: 4px solid black;
+}
+table{
+    width: 90%;
+    margin: auto;
+}
+table [rowspan="4"]{
+    padding: 25px;
+}
+textarea{
+    width: 25%;
+    height: 15vh;
+}
+a{
+    text-decoration: none;
+}
